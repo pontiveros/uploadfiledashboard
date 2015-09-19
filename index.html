@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				background-color: navy;
+				color: white;
+				font-family: sans-serif;
+			}
+			.inputPanel {
+				background-color: white;
+				padding: 10px;
+				color: navy;
+				border-radius: 7px;	
+			}
+			.titlePanel{
+				text-align: center;
+				font-size: 34px;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<div class="titlePanel">
+		Upload File
+	</div>
+	<body>
+		<div id="" class="inputPanel">
+			<form action="/uploadfiledashboard/uploadfile.php" method="post" enctype="multipart/form-data">
+        		<input type="file" name="uploadfile" />
+        		<br><br>
+        		<input type="submit" value="Upload" />
+    		</form>
+		</div>
+	</body>
+</html>
